@@ -1,0 +1,8 @@
+二.BootStrap
+1.全局样式
+2.辅助类
+
+①边框
+.border.border-top/right/bottom/left 基本类
+.border-danger/warning ...边框颜色
+.border-0.

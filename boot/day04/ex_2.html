@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"
+            />
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+<h3>手风琴</h3>
+    <div class="card" id="parent">
+        <div class="card-header">
+            <a href="#d1" class="card-link
+            " data-toggle="collapse">卡片1</a>
+        </div>
+        <div class="collapse" id="d1" data-parent="#parent">
+        <div class="card-body">
+            万事开头难
+        </div>
+        </div>
+        <div class="card-header">
+            <a href="#d2" class="card-link
+            " data-toggle="collapse">卡片2</a>
+        </div>
+        <div class="collapse" id="d2" data-parent="#parent">
+        <div class="card-body">
+            然后中间难
+        </div>
+        </div>
+        <div class="card-header">
+            <a href="#d3" class="card-link
+            " data-toggle="collapse">卡片1</a>
+        </div>
+        <div class="collapse" id="d3" data-parent="#parent">
+        <div class="card-body">
+            最后结尾难
+        </div>
+        </div>
+        <div class="card-footer"> 男人好难</div>
+    </div>
+</div>
+</body>
+</html>

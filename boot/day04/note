@@ -1,0 +1,31 @@
+六.折叠
+button        data-toggle="collapse" data-target="#d1"
+div.collapse#d1  内容部分,隐藏
+div.collapse#d1  内容部分,隐藏
+
+七.卡片
+一个区域,内部内容是垂直排列,都可以使用
+一个区域,内部内容是垂直排列,都可以使用
+div.card
+>div.card-header
++div.card-body
++div.card-footer
+a.card-linke
+
+四.其他组件
+轮播指示器:
+div.carousel#demo
+>ul
+>li
+css理论
+css在服务器运行
+需要转换成css文件,浏览器才能执行
+
+css的缺点
+语法不够强大,没有变量和合理的代码重用机制
+导致难以维护
+我们需要使用动态的样式语言,赋予css新的特征
+常见动态的css语言
+1.css/sass(scss兼容)
+2.stylus
+3.less
